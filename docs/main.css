@@ -12,6 +12,17 @@ ul {
     margin: 0;
 }
 
+.letter-docs {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.letter-docs:hover {
+    text-decoration: none;
+    color: #333333;
+    transition: all 0.3s ease;
+}
+
 /* Navbar */
 .nav-bar {
     background-color: black;
