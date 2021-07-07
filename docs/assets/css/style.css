@@ -444,7 +444,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 70vh;
-  background: url("../img/intro.png") top left;
+  background: url("../img/up.png") top left;
   background-size: cover;
   position: relative;
 }
