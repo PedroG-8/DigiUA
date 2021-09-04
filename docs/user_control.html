@@ -23,6 +23,10 @@
         border-color: #32CD32;
         color: #32CD32;
     }
+    .a {
+        border: 1px solid red;
+        color: red;
+    }
     
     </style>
 
@@ -40,7 +44,7 @@
     </a>
     </nav>
     </div>
-    <div style="padding: 10%; margin-top: 10%; display:block;">
+    <div style="padding: 8% 5%; margin-top: 10%; display:block;">
         <br>
         <form action="" method="POST">
             <input type="hidden" name="csrfmiddlewaretoken" value="lqAHLpHh0C3gCb5FCx7O7GKmHdEfCWUDZKWUhMlSkoNdPcq35ToWnFwo1eHnizOT">
@@ -55,25 +59,25 @@
             <input type="hidden" name="csrfmiddlewaretoken" value="lqAHLpHh0C3gCb5FCx7O7GKmHdEfCWUDZKWUhMlSkoNdPcq35ToWnFwo1eHnizOT">
             <input name="doc_pk" type="hidden" value="56">
             
-            <select class="form-control" name="doc_page" onchange="javascript:this.form.submit()">
-                <option value="0" type="submit">
+            <select class="form-control a" name="doc_page" onchange="javascript:this.form.submit()">
+                <option class="a" value="0" type="submit">
                     [5 pages]
                     DDRTeste5Julho2021_resolucao.pdf
                 </option>
                 
-                 <option value="1" type="submit">Page 1</option>
+                 <option class="a" value="1" type="submit">Page 1</option>
                     
                     
-                 <option value="2" type="submit">Page 2</option>
+                 <option class="a" value="2" type="submit">Page 2</option>
                     
                     
-                 <option value="3" type="submit">Page 3</option>
+                 <option class="a" value="3" type="submit">Page 3</option>
                     
                     
-                 <option value="4" type="submit">Page 4</option>
+                 <option class="a" value="4" type="submit">Page 4</option>
                     
                     
-                 <option value="5" type="submit">Page 5</option>     
+                 <option class="a" value="5" type="submit">Page 5</option>     
             </select>
         </form>
         <br>
